@@ -1,0 +1,20 @@
+; Engine configuration file.
+config_version=5
+
+[application]
+
+config/name="GameShipKit Game Feel Demo"
+run/main_scene="res://demo/demo.tscn"
+config/features=PackedStringArray("4.2")
+
+[autoload]
+
+HitFeel="*res://addons/gameshipkit_game_feel/hit_feel.gd"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/gameshipkit_game_feel/plugin.cfg")
+
+[rendering]
+
+environment/defaults/default_clear_color=Color(0.09, 0.1, 0.13, 1)

@@ -1,0 +1,10 @@
+* text=auto eol=lf
+*.wav binary
+*.png binary
+/project.godot export-ignore
+/demo export-ignore
+/screenshots export-ignore
+/.gitignore export-ignore
+/.gitattributes export-ignore
+/README.md export-ignore
+/icon.png export-ignore
